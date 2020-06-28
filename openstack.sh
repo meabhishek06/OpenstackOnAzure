@@ -49,11 +49,12 @@ EOF
 
 yum clean all
 
-yum install python-setuptools -y
+#yum install python-setuptools -y
 
 
 yum repolist
 
+yum install python-setuptools -y
 
 yum install openstack-packstack -y
 
