@@ -22,5 +22,9 @@ which pip
 
 pip -V
 
+Systemctl stop NetworkManager
+
+Systemctl disable NetworkManager
+
 
 ./openstack.sh
