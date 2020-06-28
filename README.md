@@ -6,6 +6,6 @@ git clone https://github.com/meabhishek06/OpenstackOnAzure.git
 
 cd OpenstackOnAzure
 
-chmod +x openstack_install.sh
+chmod +x openstack.sh
 
-./openstack_install.sh
+./openstack.sh
