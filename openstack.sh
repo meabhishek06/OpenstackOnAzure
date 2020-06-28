@@ -42,7 +42,7 @@ createrepo -v /software/.
 cat <<EOF > /etc/yum.repos.d/openstack.repo
 [Openstack]
 name=Openstack
-baseurl=file:///RHOSP13
+baseurl=file:///software
 gpgcheck=0
 EOF
 
