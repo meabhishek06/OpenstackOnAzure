@@ -4,7 +4,7 @@ yum install git -y
 
 git clone https://github.com/meabhishek06/OpenstackOnAzure.git
 
-cd openstack_cluster
+cd OpenstackOnAzure
 
 chmod +x openstack_install.sh
 
