@@ -22,9 +22,9 @@ which pip
 
 pip -V
 
-Systemctl stop NetworkManager
+systemctl stop NetworkManager
 
-Systemctl disable NetworkManager
+systemctl disable NetworkManager
 
 
 ./openstack.sh
