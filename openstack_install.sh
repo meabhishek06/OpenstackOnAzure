@@ -3,7 +3,7 @@
 yum update -y
 
 
-subscription-manager repos --enable rhel-server-rhscl-7-rpms
+#subscription-manager repos --enable rhel-server-rhscl-7-rpms
 yum install python27-python-pip
 scl enable python27 bash
 which pip
