@@ -58,6 +58,10 @@ yum install python-setuptools -y
 
 yum install openstack-packstack -y
 
+systemctl stop NetworkManager
+
+systemctl disable NetworkManager
+
 packstack --gen-answer-file=a.txt
 
 packstack  --answer-file=a.txt
