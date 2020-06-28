@@ -49,6 +49,8 @@ EOF
 
 yum clean all
 
+yum install python-setuptools -y
+
 
 yum repolist
 
