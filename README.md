@@ -8,4 +8,4 @@ cd openstack_cluster
 
 chmod +x openstack.sh
 
-./openstack.sh
+./openstack_install.sh
