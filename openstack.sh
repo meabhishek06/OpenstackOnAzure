@@ -17,7 +17,7 @@ gdown   --id   1jfvs8xH40mCgjYBI1FxGO9F1QMq0WNdR    --output    rhel-7-server-ad
 
 gdown   --id   1G7KbibHG9KDsNe9Z-v2ru_Hyq93aOlnA   --output    rhel-7.5-server-updates-20180628.iso
 
-gdown   --id   15MI8VO2kU8XeE4s-PJWTxocN7ptm5DHo    --output    RHEL7OSP-13.0-20180628.2-x86_64.iso
+gdown   --id   1fXVE8s_ntnQ4E-zfmTL0_jqS8_aQDJT-    --output    RHEL7OSP-13.0-20180628.2-x86_64.iso
 
 mkdir /updates  /additional  /RHOSP
 
