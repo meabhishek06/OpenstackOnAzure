@@ -64,5 +64,7 @@ systemctl disable NetworkManager
 
 packstack --gen-answer-file=a.txt
 
+echo 3 > /proc/sys/vm/drop_caches
+
 packstack  --answer-file=a.txt
 
