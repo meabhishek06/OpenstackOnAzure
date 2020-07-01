@@ -47,7 +47,7 @@ gpgcheck=0
 EOF
 
 
-yum clean all
+#yum clean all
 
 #yum install python-setuptools -y
 
@@ -66,5 +66,5 @@ packstack --gen-answer-file=a.txt
 
 echo 3 > /proc/sys/vm/drop_caches
 
-packstack  --answer-file=a.txt
+#packstack  --answer-file=a.txt
 
