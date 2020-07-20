@@ -66,5 +66,19 @@ packstack --gen-answer-file=a.txt
 
 echo 3 > /proc/sys/vm/drop_caches
 
+
+sudo pip uninstall requests
+
+sudo pip uninstall urllib3
+
+sudo yum remove python-urllib3
+
+sudo yum remove python-requests
+
+(confirm that all those libraries have been removed)
+
+sudo yum install python-urllib3
+
+sudo yum install python-requests
 #packstack  --answer-file=a.txt
 
