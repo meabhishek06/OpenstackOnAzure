@@ -1,6 +1,10 @@
 #!/bin/bash
 
-yum update -y
+sudo yum install epel-release
+
+
+sudo yum install python-pip
+
 
 
 #subscription-manager repos --enable rhel-server-rhscl-7-rpms
