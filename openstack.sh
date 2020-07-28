@@ -80,5 +80,7 @@ sudo yum remove python-requests
 sudo yum install python-urllib3
 
 sudo yum install python-requests
+
+ 0.in.pool.ntp.org
 #packstack  --answer-file=a.txt
 
